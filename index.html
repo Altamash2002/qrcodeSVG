@@ -48,6 +48,7 @@
                     scanner.start(cameras[0]);
                 } else if (cameras.length > 1){
                     scanner.start(cameras[1]);
+                    video.style.transform = 'scaleX(1)';
                 }else {
                     console.error('No cameras found.');
                 }
